@@ -178,7 +178,6 @@ metadata:
   name: jenkins
   namespace: ci-cd
 spec:
-  type: LoadBalancer
   ports:
     - name: master
       port: 8080
